@@ -51,6 +51,9 @@ export default function Home() {
           </a>
         </div>
       </main>
+      <h1 className="text-3xl font-bold ">
+      Hello world!
+    </h1>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
