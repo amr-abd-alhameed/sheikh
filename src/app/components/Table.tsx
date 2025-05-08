@@ -3,42 +3,12 @@ import TableRow from "./TableRow";
 
 const Table = () => {
   return (
-    <div className="parent">
-      {/* <div className="parent">
-        <p>Cell 1</p>
-        <p>Cell 2</p>
-         <p >Cell 3</p>
-         <p>Cell 4</p>
-        <p>Cell 5</p> 
-        <p>Cell 6</p> 
-        <p>Cell 7</p>
-        <p>Cell 8</p>
-        <p>Cell 1</p>
-        <p>Cell 2</p>
-        <p>Cell 3</p>
-        <p>Cell 4</p>
-        <p>Cell 5</p>
-        <p>Cell 6</p>
-        <p>Cell 7</p>
-        <p>Cell 8</p>
-        <p>Cell 1</p>
-        <p>Cell 2</p>
-        <p>Cell 3</p>
-        <p>Cell 4</p>
-        <p>Cell 5</p>
-        <p>Cell 6</p>
-        <p>Cell 7</p>
-        <p>Cell 8</p>
-        <p>Cell 1</p>
-        <p>Cell 2</p>
-        <p>Cell 3</p>
-        <p>Cell 4</p>
-        <p>Cell 5</p>
-        <p>Cell 6</p>
-        <p>Cell 7</p>
-        <p>Cell 8</p>
-      </div> */}
-      <TableRow />
+    <div className="w-full overflow-x-auto">
+      <div className="min-w-full bg-white dark:bg-gray-800 rounded-lg shadow-md">
+        <div className="grid grid-cols-8 gap-4 p-4">
+          <TableRow />
+        </div>
+      </div>
     </div>
   );
 };
