@@ -7,41 +7,41 @@ const TableRow = () => {
     <>
       {bodyData.map((ele, index) => (
         <React.Fragment key={index}>
-          <div className="p-4 text-right border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
+          <div className="p-4  border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
             {ele.character}
           </div>
-          <div className="p-4 text-right border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
+          <div className="p-4  border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
             {ele.outPut}
           </div>
-          <div className="p-4 text-right border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
+          <div className="p-4  border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
             <TableCell
               char1={ele.prop1.char1}
               char2={ele.prop1.char2}
               char3={ele.prop1.char3}
             />
           </div>
-          <div className="p-4 text-right border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
+          <div className="p-4  border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
             <TableCell
               char1={ele.prop2.char1}
               char2={ele.prop2.char2}
               char3={ele.prop2.char3}
             />
           </div>
-          <div className="p-4 text-right border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
+          <div className="p-4  border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
             <TableCell
               char1={ele.prop3.char1}
               char2={ele.prop3.char2}
               char3={ele.prop3.char3}
             />
           </div>
-          <div className="p-4 text-right border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
+          <div className="p-4  border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
             <TableCell
               char1={ele.prop4.char1}
               char2={ele.prop4.char2}
               char3={ele.prop4.char3}
             />
           </div>
-          <div className="p-4 text-right border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
+          <div className="p-4  border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
             <TableCell
               char1={ele.prop5.char1}
               char2={ele.prop5.char2}
@@ -51,7 +51,7 @@ const TableRow = () => {
               char6={ele.prop5.char6}
             />
           </div>
-          <div className="p-4 text-right border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
+          <div className="p-4  border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
             <TableCell
               char1={ele.prop6.char1}
               char2={ele.prop6.char2}
