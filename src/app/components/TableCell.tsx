@@ -11,7 +11,7 @@ type PropsType = {
 
 const TableCell = ({ char1, char2, char3, char4, char5, char6 }: PropsType) => {
   return (
-    <div className="p-3 border-b border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-200">
+    <div className="space-y-1">
       <p className="text-sm font-medium text-gray-900 dark:text-gray-100">
         {char1}
       </p>
