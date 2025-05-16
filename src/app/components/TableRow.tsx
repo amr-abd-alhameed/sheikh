@@ -7,10 +7,10 @@ const TableRow = () => {
     <>
       {bodyData.map((ele, index) => (
         <React.Fragment key={index}>
-          <div className="p-4 text-2xl rounded-[11px] items-center flex  border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
+          <div className="p-4 text-2xl  rounded-[11px] flex items-center justify-center   border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
             {ele.character}
           </div>
-          <div className="p-4 text-xl  rounded-[11px] items-center flex border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
+          <div className="p-4 text-xl  rounded-[11px] flex items-center justify-center  border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
             {ele.outPut}
           </div>
           <div className="p-4 flex items-center  border rounded-[11px] border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
