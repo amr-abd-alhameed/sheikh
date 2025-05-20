@@ -3,7 +3,7 @@ import charSlice from "./features/charSlice";
 
 export const store = configureStore({
   reducer: {
-    char: charSlice,
+    char: charSlice.reducer,
   },
 });
 export type RootState = ReturnType<typeof store.getState>;

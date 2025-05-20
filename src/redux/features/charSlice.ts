@@ -22,15 +22,14 @@ interface initialStateTypes {
 }
 const initialState: initialStateTypes[] = bodyData;
 
-
 const charSlice = createSlice({
   name: "char",
   initialState,
   reducers: {
     updateData: (state, action: PayloadAction<initialStateTypes[]>) => {
-      state = action.payload;
+      return action.payload;
     },
   },
 });
 export const { updateData } = charSlice.actions;
-export default charSlice.reducer;
+export default charSlice;

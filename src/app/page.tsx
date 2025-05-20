@@ -9,10 +9,12 @@ export default function Home() {
   const dispatcher: AppDispatch = useDispatch();
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const searchTerm = e.target.value;
-    const filteredData = bodyData.filter(
-      (item) => item.character.toLowerCase() === searchTerm.toLowerCase()
-    );
-    console.log(filteredData);
+    const filteredData =
+      searchTerm === ""
+        ? bodyData
+        : bodyData.filter(
+            (item) => item.character.toLowerCase() === searchTerm.toLowerCase()
+          );
     dispatcher(updateData(filteredData));
   };
   return (
