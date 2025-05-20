@@ -2,8 +2,8 @@ import React from "react";
 
 type PropsType = {
   char1?: string;
-  char2: string;
-  char3: string;
+  char2?: string;
+  char3?: string;
   char4?: string;
   char5?: string;
   char6?: string;

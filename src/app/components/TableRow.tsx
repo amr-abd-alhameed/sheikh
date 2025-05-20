@@ -1,11 +1,15 @@
+"use client";
 import React from "react";
-import { bodyData } from "../../../public/data";
+// import { bodyData } from "../../../public/data";
 import TableCell from "./TableCell";
+import { useSelector } from "react-redux";
+import { RootState } from "@/redux/store";
 
 const TableRow = () => {
+  const data = useSelector((state: RootState) => state.char)
   return (
     <>
-      {bodyData.map((ele, index) => (
+      {data.map((ele, index) => (
         <React.Fragment key={index}>
           <div className="p-4 text-2xl  rounded-[11px] flex items-center justify-center   border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
             {ele.character}
